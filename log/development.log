@@ -1,0 +1,38 @@
+DEPRECATION WARNING: ActiveRecord::Associations::AssociationCollection is deprecated! Use ActiveRecord::Associations::CollectionProxy instead. (called from /Users/faguirre/projects/git_projects/foodcon_nuevo/config/environment.rb:5)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Mon Aug 05 21:05:11 -0500 2013
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/faguirre/.rvm/gems/ruby-1.8.7-p374@foodcon/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/faguirre/.rvm/gems/ruby-1.8.7-p374@foodcon/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.2ms)
+Rendered /Users/faguirre/.rvm/gems/ruby-1.8.7-p374@foodcon/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.8ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Mon Aug 05 21:05:15 -0500 2013
+
+PGError (could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/tmp/.s.PGSQL.5432"?
+):
+  
+
+Rendered /Users/faguirre/.rvm/gems/ruby-1.8.7-p374@foodcon/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+Rendered /Users/faguirre/.rvm/gems/ruby-1.8.7-p374@foodcon/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/faguirre/.rvm/gems/ruby-1.8.7-p374@foodcon/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (129.4ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Mon Aug 05 21:05:36 -0500 2013
+Served asset /rails.png - 200 OK (6ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at Mon Aug 05 21:05:38 -0500 2013
+  [1m[36m (26.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  Processing by Rails::InfoController#properties as HTML
+Rendered inline template (0.4ms)
+Completed 200 OK in 28ms (Views: 9.2ms | ActiveRecord: 0.0ms)
