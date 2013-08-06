@@ -1,1 +1,10 @@
 /nbproject/private/
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/**/*
+log/
+vendor/**/*
+public/system/uploads/**
+test/**
+.DS_Store
