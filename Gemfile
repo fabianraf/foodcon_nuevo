@@ -10,9 +10,9 @@ gem 'json'
 gem 'jquery-rails'
 gem "therubyracer", :require => 'v8'
 gem 'pg', '0.11.0'
-#gem 'devise'
-#gem 'rolify'
-#gem "cancan"
+gem 'devise'
+gem 'rolify'
+gem "cancan"
 #gem 'paperclip', '2.7.0'
 #gem 'meta_search'
 ##install will_paginate
