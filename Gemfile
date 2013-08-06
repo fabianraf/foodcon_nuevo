@@ -30,7 +30,7 @@ gem "nokogiri", "1.5.2"
 gem 'exception_notification'
 gem 'roadie'
 gem 'slugged'
-#gem 'cocaine', '0.3.2'
+gem 'cocaine', '0.3.2'
 ## Use unicorn as the web server
 ## gem 'unicorn'
 #
@@ -42,9 +42,9 @@ gem 'slugged'
 
 # Gems used only for assets and not required
 # in production environments by default.
-#group :assets do
-#  gem 'sass-rails', "  ~> 3.1.0"
-#  gem 'coffee-rails', "~> 3.1.0"
-#  gem 'uglifier'
-#  gem 'zurb-foundation', '~> 4.1.2'
-#end
+group :assets do
+  gem 'sass-rails', "  ~> 3.1.0"
+  gem 'coffee-rails', "~> 3.1.0"
+  gem 'uglifier'
+  gem 'zurb-foundation', '~> 4.1.2'
+end
