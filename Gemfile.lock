@@ -187,7 +187,7 @@ GEM
       macaddr (~> 1.0)
     warden (1.1.1)
       rack (>= 1.0)
-    will_paginate (3.0.pre)
+    will_paginate (3.0.2)
     zurb-foundation (4.1.6)
       sass (>= 3.2.0)
 
@@ -222,5 +222,5 @@ DEPENDENCIES
   slugged
   therubyracer
   uglifier
-  will_paginate (= 3.0.pre)
+  will_paginate (= 3.0.2)
   zurb-foundation (~> 4.1.2)
